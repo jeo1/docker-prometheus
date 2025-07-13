@@ -6,4 +6,5 @@ TIMEZONE=America/Toronto
 # Update
 CONFIG=<path to prometheus config>
 PROMETHEUS_DATA=<path to prometheus data>
+PROM_PORT=<Prometheus Port>
 ```

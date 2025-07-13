@@ -6,5 +6,5 @@ services:
     ports:
       - "${PROMETHEUS_PORT}:9090"
     volumes:
-      - "${CONFIG}:/etc/prometheus"
+      - "${PROMETHEUS_CONFIG}:/etc/prometheus"
       - "${PROMETHEUS_DATA}:/prometheus"

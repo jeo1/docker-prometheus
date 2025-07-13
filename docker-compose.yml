@@ -4,7 +4,7 @@ services:
     pull_policy: always
     restart: unless-stopped
     ports:
-      - "${PROM_PORT}:9090"
+      - "${PROMETHEUS_PORT}:9090"
     volumes:
       - "${CONFIG}:/etc/prometheus"
       - "${PROMETHEUS_DATA}:/prometheus"
